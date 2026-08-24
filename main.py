@@ -147,7 +147,7 @@ while True:
         for coin in coins[:]:
             if player.colliderect(coin):
                 coins.remove(coin)
-                score += 1
+                score += 10
 
         for enemy in enemies:
             rect = enemy["rect"]
