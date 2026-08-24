@@ -5,7 +5,7 @@ pygame.init()
 
 WIDTH = 1000
 HEIGHT = 600
-FPS = 60
+FPS = 165
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Python Jump & Run")
